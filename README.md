@@ -8,7 +8,7 @@ This Process is only for SSR Set-up
 wget --no-check-certificate https://freed.ga/github/shadowsocksR.sh; bash shadowsocksR.sh
 #
 ### ServerSpeeder Installation
-uname -r
+uname -r\
 rpm -ivh https://freed.ga/kernel/kernel-firmware-2.6.32-504.3.3.el6.noarch.rpm
 rpm -ivh https://freed.ga/kernel/kernel-2.6.32-504.3.3.el6.x86_64.rpm --force
 reboot
