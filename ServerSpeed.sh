@@ -30,7 +30,6 @@ Get_Dist_Name()
 	else
         release='unknow'
     fi
-    
 }
 
 Get_OS_Bit()
@@ -48,11 +47,11 @@ kernel=`uname -r`
 kernel_result=""
 
 echo -e "\r\n"
-echo "===============System Info======================="
-echo "$release "
-echo "$kernel "
+echo '===============System Info======================='
+echo "Version No. $release"\
+echo "Kernel No. $kernel "\
 echo "$bit "
-echo "================================================="
+echo '================================================='
 echo -e "\r\n"
 
 #下周支持的内核库
