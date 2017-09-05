@@ -1,11 +1,11 @@
 ### SSR
 This Process is only for SSR Set-up
 #
-# End Firewall
+### End Firewall
 /etc/init.d/iptables stop
 # 
-# SSR Installation
+### SSR Installation
 wget --no-check-certificate https://freed.ga/github/shadowsocksR.sh; bash shadowsocksR.sh
 #
-# ServerSpeeder Installation
+### ServerSpeeder Installation
 wget -N --no-check-certificate https://raw.githubusercontent.com/91yun/serverspeeder/master/serverspeeder-all.sh && bash serverspeeder-all.sh
