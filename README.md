@@ -2,10 +2,10 @@
 This Process is only for SSR Set-up
 #
 ### End Firewall
-/etc/init.d/iptables stop
+`/etc/init.d/iptables stop`
 # 
 ### SSR Installation
-wget --no-check-certificate https://freed.ga/github/shadowsocksR.sh; bash shadowsocksR.sh
+`wget --no-check-certificate https://freed.ga/github/shadowsocksR.sh; bash shadowsocksR.sh`
 #
 ### ServerSpeeder Installation
 ```
@@ -16,4 +16,4 @@ reboot
 wget -N --no-check-certificate https://raw.githubusercontent.com/Adair-Hsu/SSR/master/SpeederInstall.sh && bash SpeederInstall.sh
 ```
 ### Alternate Address for ServerSpeeder Installation
-https://raw.githubusercontent.com/91yun/serverspeeder/master/serverspeeder-all.sh
+`https://raw.githubusercontent.com/91yun/serverspeeder/master/serverspeeder-all.sh`
