@@ -1,9 +1,9 @@
-### SSR[only work on the system of CentOS(Linux)]
+### SSR [only works on the system of CentOS (Linux)]
 This Process is only for SSR Set-up
 #
 ### End Firewall
 `/etc/init.d/iptables stop` 
-#### If not, the VPS will not allow remote connections.
+#### If not, the VPS will not allow the remote connections.
 # 
 ### SSR Installation
 `wget --no-check-certificate https://freed.ga/github/shadowsocksR.sh; bash shadowsocksR.sh`
