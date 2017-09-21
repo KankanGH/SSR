@@ -1,8 +1,8 @@
- ### SSR
+### SSR
 This Process is only for SSR Set-up
 #
 ### End Firewall
-`/etc/init.d/iptables stop` If not, the VPS will not allow remote connections.
+`/etc/init.d/iptables stop` / If not, the VPS will not allow remote connections.
 # 
 ### SSR Installation
 `wget --no-check-certificate https://freed.ga/github/shadowsocksR.sh; bash shadowsocksR.sh`
