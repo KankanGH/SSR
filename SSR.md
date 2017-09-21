@@ -11,10 +11,10 @@ This Process is only for SSR Set-up
 ### ServerSpeeder Installation
 ```
 1. uname -r
-2. rpm -ivh https://freed.ga/kernel/kernel-firmware-2.6.32-504.3.3.el6.noarch.rpm
+2. rpm -ivh https://freed.ga/kernel/kernel-firmware-2.6.32-504.3.3.el6.noarch.rpm **\Change the kernel\
 3. rpm -ivh https://freed.ga/kernel/kernel-2.6.32-504.3.3.el6.x86_64.rpm --force
 4. reboot
-5. wget -N --no-check-certificate https://raw.githubusercontent.com/Adair-Hsu/SSR/master/SpeederInstall.sh && bash SpeederInstall.sh
+5. wget -N --no-check-certificate https://raw.githubusercontent.com/Adair-Hsu/SSR/master/SpeederInstall.sh && bash SpeederInstall.sh **\Install the ServerSpeeder\
 ```
 ### Alternate Address for ServerSpeeder Installation
 `https://raw.githubusercontent.com/91yun/serverspeeder/master/serverspeeder-all.sh`
