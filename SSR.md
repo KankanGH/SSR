@@ -1,8 +1,8 @@
-### SSR [only works on the system of CentOS (Linux)]
+ #### SSR [only works on the system of CentOS (Linux)]
 This Process is only for SSR Set-up
 #
 ### End Firewall
-`/etc/init.d/iptables stop`
+`/etc/init.d/iptables stop` #
 ##Or
 ##Firstly: `service iptables restart`
 ##Secondly: `service iptables stop`
