@@ -1,10 +1,10 @@
- #### SSR [only works on the system of CentOS (Linux)]
+#### SSR [only works on the system of CentOS (Linux)]
 This Process is only for SSR Set-up
 #
 ### End Firewall
 `/etc/init.d/iptables stop`
 #
-##Or
+## Or
 ##Firstly: `service iptables restart`
 ##Secondly: `service iptables stop`
 #### If not, the VPS will not allow the remote connections.
