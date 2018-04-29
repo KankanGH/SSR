@@ -5,11 +5,8 @@ This Process is only for SSR Set-up
 `/etc/init.d/iptables stop`
 #
 #### Or
-#
 #### Firstly: `service iptables restart`
-#
 #### Secondly: `service iptables stop`
-#
 #### If not, the VPS will not allow the remote connections.
 # 
 ### SSR Installation
