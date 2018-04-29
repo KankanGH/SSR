@@ -3,8 +3,7 @@ This Process is only for SSR Set-up
 #
 ### End Firewall
 `/etc/init.d/iptables stop`
-#### Or
-#### Firstly:
+#### Or Firstly:
 `service iptables restart`
 #### Secondly:
 `service iptables stop`
