@@ -1,4 +1,3 @@
-# SSR
 ## SSR [only works on the system of CentOS (Linux)]
 This Process is only for SSR Set-up
 #
