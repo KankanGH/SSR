@@ -10,8 +10,10 @@ This Process is only for SSR Set-up
 #### If not, the VPS will not allow the remote connections.
 # 
 ### SSR Installation
-`wget --no-check-certificate https://freed.ga/github/shadowsocksR.sh; bash shadowsocksR.sh`
-`wget –N —no–check–certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh && chmod +x ssr.sh && bash ssr.sh`
+```
+wget --no-check-certificate https://freed.ga/github/shadowsocksR.sh; bash shadowsocksR.sh
+wget –N —no–check–certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh && chmod +x ssr.sh && bash ssr.sh
+```
 #
 ### ServerSpeeder Installation
 #### CentOS 6
