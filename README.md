@@ -36,8 +36,10 @@ wget –N —no–check–certificate https://raw.githubusercontent.com/ToyoDAdo
 3. wget -N --no-check-certificate https://github.com/91yun/serverspeeder/raw/master/serverspeeder.sh && bash serverspeeder.sh
 ```
 ### Alternate Address for ServerSpeeder Installation
-`https://raw.githubusercontent.com/91yun/serverspeeder/master/serverspeeder-all.sh`
-`wget –N —no–check–certificate http://i.wuw.red/ssr.sh && chmod +x ssr.sh && bash ssr.sh`
+```
+https://raw.githubusercontent.com/91yun/serverspeeder/master/serverspeeder-all.sh
+wget –N —no–check–certificate http://i.wuw.red/ssr.sh && chmod +x ssr.sh && bash ssr.sh
+```
 
 ### DIY SSR
 `vi /etc/shadowsocks.json`
