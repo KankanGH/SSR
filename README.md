@@ -11,6 +11,10 @@ This Process is only for SSR Set-up
 # 
 ### SSR Installation
 ```
+wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh
+chmod +x shadowsocksR.sh
+./shadowsocksR.sh 2>&1 | tee shadowsocksR.log
+
 wget --no-check-certificate https://freed.ga/github/shadowsocksR.sh; bash shadowsocksR.sh
 wget –N —no–check–certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh && chmod +x ssr.sh && bash ssr.sh
 ```
